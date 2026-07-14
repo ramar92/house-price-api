@@ -1,0 +1,10 @@
+services:
+
+- type: web
+  name: house-price-api
+
+  env: docker
+
+  dockerfilePath: ./Dockerfile
+
+  plan: free
